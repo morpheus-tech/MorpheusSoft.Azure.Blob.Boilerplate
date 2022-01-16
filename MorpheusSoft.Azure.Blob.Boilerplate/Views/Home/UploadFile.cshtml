@@ -1,0 +1,7 @@
+﻿@Model string
+<span class="text-warning">@Model</span>
+<form asp-action="UploadFile" asp-controller="Home" enctype="multipart/form-data">
+    <label>File Input</label>
+    <input type="file" name="file"/>
+    <button class="btn btn-success">Submit</button>
+</form>
