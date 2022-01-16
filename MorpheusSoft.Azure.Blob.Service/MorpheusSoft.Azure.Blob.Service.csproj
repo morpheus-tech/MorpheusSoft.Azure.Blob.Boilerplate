@@ -4,10 +4,26 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>MorpheusSoft</Authors>
+    <Company>MorpheusSoft</Company>
+    <PackageId>MorpheusSoft.Azure.Blob</PackageId>
+    <Product>MorpheusSoft.Azure.Blob</Product>
+    <Copyright>Copyright © MorpheusSoft 2022</Copyright>
+    <PackageProjectUrl>https://github.com/morpheus-tech/MorpheusSoft.Azure.Blob.Boilerplate</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/morpheus-tech/MorpheusSoft.Azure.Blob.Boilerplate</RepositoryUrl>
+    <PackageTags>Azure Blob Storage; Azure Storage, Azure Media</PackageTags>
+    <PackageIcon>cropped-Favicon-180x180.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Services\jdwaoho3.xhx~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\cropped-Favicon-180x180.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
